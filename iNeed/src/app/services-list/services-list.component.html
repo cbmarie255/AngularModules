@@ -1,0 +1,6 @@
+<h3>Who are you?</h3>
+<ul>
+  <li *ngFor="let item of items" [class.selected]="isSelected(item)" (click)="toggleSelection(item)">
+    {{ item }}
+  </li>
+</ul>

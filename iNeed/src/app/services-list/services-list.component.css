@@ -1,0 +1,11 @@
+h3 {
+    color:purple;
+  }
+  
+  li {
+    list-style-type: none;
+  }  
+  li.selected {
+    background-color: red;
+    font-weight: bold;
+  }  
